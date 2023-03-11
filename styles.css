@@ -14,13 +14,17 @@
     font-family: 'Labrada', serif;
     /* height: 100vh; */
     padding: 30px;
- font-size: 35px;
+ font-size: 30px;
  justify-content: flex-end;
  /* align-items: flex-start; */
  cursor: pointer;
  gap: 20px;
  position: fixed;
  top: 0;
+}
+
+.navbar>div:last-child{
+    margin-right: 80px;
 }
 
 a{
@@ -34,12 +38,13 @@ a{
     width:100%;
     box-shadow: rgba(6, 5, 5, 0.16) 0px 1px 4px;
     /* box-shadow: rgba(153, 154, 156, 0.3) 0px 0px 0px 3px; */
+    margin-top: 200px;
    
 }
 .main>h2{
     font-size: 60px;
     margin-top: 40px;
-    margin-bottom: -150px;
+    margin-bottom: -300px;
     font-family:'Labrada', serif;
 }
 .about{
@@ -71,16 +76,16 @@ a{
 
 }
 .hello{
-    font-size: 60px;
+    font-size: 40px;
 
 }
 .role{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 900;
 
 }
 .more-about{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     /* color: aliceblue; */
 }
@@ -100,8 +105,10 @@ a{
 }
 
 .tse-pic img{
-    width: 560px;
-    height: 50vh;
+    /* width: 560px; */
+    /* height: 50vh; */ 
+    width: 100%;
+    /* height: 90%; */
     border-radius: 7%;
    margin: 30px 20px;
 }
