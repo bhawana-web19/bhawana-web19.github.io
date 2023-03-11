@@ -10,7 +10,7 @@
 .navbar{
     display: flex;
     background-color: rgb(96, 192, 182);
-    /* width: 10vw; */
+    width: 100%;
     font-family: 'Labrada', serif;
     /* height: 100vh; */
     padding: 30px;
@@ -19,6 +19,8 @@
  /* align-items: flex-start; */
  cursor: pointer;
  gap: 20px;
+ position: fixed;
+ top: 0;
 }
 
 a{
@@ -41,10 +43,10 @@ a{
     font-family:'Labrada', serif;
 }
 .about{
-    margin: 144px auto;
+    margin: 300px auto;
     /* background-color: rgb(66, 74, 28); */
     height: 58vh;
-    width: 80vw;
+    width: 90%;
     display: flex;
     gap: 40px;
     justify-content: space-around;
@@ -54,6 +56,7 @@ a{
 
 .tse-info{
     display: flex;
+    width: 60%;
     justify-content: center;
     flex-direction: column;
     font-family: 'Source Code Pro', monospace;
@@ -91,6 +94,9 @@ a{
     margin-top: 20px;
     background-color: rgb(96, 192, 182);
 
+}
+.tse-pic{
+    width: 30%;
 }
 
 .tse-pic img{
