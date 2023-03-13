@@ -438,29 +438,39 @@ h2{
 }
 
 .contact-icons-div{
-    width: 70%;
+    width: 90%;
     margin: auto;
     box-sizing: border-box;
     /* border: 2px solid yellow; */
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
-    gap: 20px;
+    gap: 20px; */
+    display: flex;
+    gap: 10px;
 
 }
 .contact-icons{
     /* border: 2px solid white; */
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 .contact-icons>img{
-    width: 7%;
+    width: 10%;
     transition: all 0.3sec;
 }
 .contact-icons>img:hover{
-    width: 9%;
+    width: 12%;
+}
+
+.contact-icons>a>img{
+    width: 12%;
+    transition: all 0.3sec;
+}
+.contact-icons>a>img:hover{
+    width: 15%;
 }
 
 /*  Animations */
