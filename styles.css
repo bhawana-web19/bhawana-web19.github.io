@@ -55,6 +55,15 @@
     width: 95%;
 }
 
+.navbar>ul>li:last-child{
+    /* border: 1px solid black; */
+    /* padding: 10px 20px 10px 0; */
+    font-weight: 600;
+    /* background-color: antiquewhite; */
+    color: white;
+}
+
+
 .navbar>#nav-head{
     width: 37%;
     height: 90%;
@@ -417,11 +426,12 @@ h2{
 
 .contacts{
     /* border: 2px solid black; */
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     background-color:black;
     color: white;
     position: absolute;
     padding: 20px 20px 40px 20px;
+
 }
 .contacts>.contact-head{
     /* border: 2px solid green; */
