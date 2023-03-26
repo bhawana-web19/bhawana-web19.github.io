@@ -1,0 +1,50 @@
+#about-me{
+    height: 25em;
+    background-image: url(https://nextgenvidya.com/wp-content/uploads/2020/12/web-3967926_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;    
+}
+
+#about-me-body .row {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    /* padding-top: 15%; */
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+#footer img {
+    width: 5%;
+    transition: all 0.3s;
+}
+
+#technical-skills img{
+    width: 80%;
+}
+
+#customer-skills img{
+    width: 70%;   
+}
+
+#soft-skills img{
+    width: 60%;   
+}
+
+#soft-skills .col:nth-child(3)>img{
+    height: 70%;
+}
+
+#banner-intro{
+    margin-top: 6em !important;
+}
+
+@media(min-width:768px){
+    
+}
+
+
+#soft-skills .row .col{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
