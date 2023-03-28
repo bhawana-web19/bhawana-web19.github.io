@@ -1,9 +1,10 @@
 #about-me{
-    height: 25em;
+    height: auto;
     background-image: url(https://nextgenvidya.com/wp-content/uploads/2020/12/web-3967926_1920.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    text-align: center;    
+    text-align: center;   
+    padding-bottom: 60px;
 }
 
 #about-me-body .row {
@@ -12,8 +13,26 @@
     margin-top: 10%;
     /* padding-top: 15%; */
     background-color: rgba(255, 255, 255, 0.7);
-
+    position: relative;
+/* text-overflow: ellipsis; */
+/* overflow: auto; */
+/* overflow: hidden; */
 }
+/* #skills {
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+#skills>#technical-skills{
+    border: 2px solid black;
+    width: 95vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+} */
+
+/* #skills .container .tech-icons >img{
+    width: 90%;
+} */
 
 #footer img {
     width: 5%;
@@ -48,3 +67,20 @@
 #soft-skills .row .col{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+@media(max-width:438px){
+    #about-me-body .row .col #name{
+        font-size: 12px !important;
+    }
+
+    #about-me-body .row .col .card-text{
+        font-size: 13px;
+    }     
+  }
+
+  /* 
+    #about-me-body .row .col h5{
+        font-size: 12px;
+    }
+
+ 
