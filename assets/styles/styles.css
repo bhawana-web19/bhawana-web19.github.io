@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /* Background colors */
+    --primary-color:#0dcaf0;
+    --secondary-color:#3da2b9;
+    --bg-white:#fff;
+    --bg-dark:#000;
+
+    /* Text colors */
+    --primary-text:#3da2b9;
+    --secondary-text:#2dd1f2;
+    --text-white:#fff;
+    --text-dark:#000;
+    --text-grey:#7d7f81;
+
+    /* Font family */
+    --primary-font: 'Rubik' ,'sans-serif';
+    --secondary-font: 'Roboto', 'sans-serif';
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    padding: 5rem 0;
+}
+
+.main-btn{
+    display: inline-block;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 2.875rem;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 3.125rem;
+    box-shadow: 0 0.625rem 1.875rem rgb(118, 85, 255 / 30%);
+    border: double 0.125rem transparent;
+    padding: 0 2.625rem;
+    transition: all .3s ease-in-out;
+    --webkit-transition:all .3s ease-in-out;
+}
+
+
+.primary-btn{
+    background: var(--primary-color);
+    background-image: var(--primary-color);
+    color: #fff;
+}
+
+
+.primary-btn:hover{
+    border-color: var(--primary-color);
+    background:var(--bg-white);
+    color: var(--secondary-color);
+    box-shadow: none;
+}
+
+.secondary-btn{
+    background-image: var(--bg-white);
+    color: #3da2b9;
+    border: var(--primary-color);
+}
+
+.secondary-btn:hover{
+    background: var(--secondary-color);
+    color: var(--text-white);
+    box-shadow: none;
+}
+
+
+h1{
+    font-size: 4.375rem;
+    line-height: 3.75rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 1.25rem;
+    font-family: var(--primary-font);
+}
+
+h2{
+    font-size: 2.5rem;
+    line-height: 3.4375rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 1.5625rem;
+    font-family: var(--primary-font);
+}
+
+h3{
+    font-size: 2.25rem;
+    line-height: 3.125rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 0.9375rem;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 2.1875rem;
+}
+
+p{
+    color: var(--text-dark);
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+}
+
+.header-wrapper .navbar{
+    padding: 0.9357rem 0;
+    -o-transition: all .2s linear;
+    --webkit-transition:all .2s linear;
+    transition: all .2s linear;
+}
+
+.header-wrapper .navbar-brand img{
+    max-width: 4rem;
+    height: auto;
+}
+
+.header-wrapper .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.header-wrapper .nav-item{
+    margin: 0 0.625rem;
+}
+
+.header-wrapper .nav-item .nav-link{
+    font-family: var(--primary-font);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--text-dark);
+    display: inline-block;
+}
+
+.header-scroll{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-white);
+    -webkit-box-shadow:0 0.25rem 0.375rem rgba(12, 0, 46, .05);
+    box-shadow: 0 0.25rem 0.375rem rgba(12, 0, 46, .05);
+}
+
+.banner-wrapper{
+    padding-top:6.75rem ;
+    /* background-image: url(https://nextgenvidya.com/wp-content/uploads/2020/12/web-3967926_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    z-index: 1;
+    margin-top:8vh;
+}
+
+.banner-wrapper .banner-content{
+    vertical-align: middle;
+    align-self: center;
+}
+
+.banner-wrapper .banner-content h2::after{
+content: '';
+width: 60%;
+height: 0.125rem;
+position: absolute;
+top: 50%;
+left: 25%;
+background: var(--primary-text);
+overflow-x: hidden;
+}
+.about-wrapper{
+    background-color: #dde0e2;
+}
+/* skills */
+.skills-wrapper{
+    background: var(--secondary-color);
+}
+.skills-wrapper .card{
+    background-color:rgb(239, 237, 237);
+    cursor: pointer;
+    --webkit-transition:all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+.skills-wrapper .card>div>img{
+    width: 60%;
+    margin: auto;
+}
+
+.skills-wrapper .card:hover{
+    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+    background: var(--bg-white);
+}
+
+#contacts{
+    max-width: 100%;
+    margin-bottom: 0;
+}
+#contacts a{
+    font-size: 25px;
+    transition: all 0.3s;
+}
