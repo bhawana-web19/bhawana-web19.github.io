@@ -171,7 +171,7 @@ p{
 }
 
 .banner-wrapper .banner-content h2::after{
-content: '';
+content:"";
 width: 60%;
 height: 0.125rem;
 position: absolute;
