@@ -1,5 +1,5 @@
 function downloadResume(){
-    window.open("../assets/images/fw19_0604-Bhawana-Chadda-Resume.pdf","_blank")
+    window.open("https://drive.google.com/file/d/1D3OEkjxrA-80wjzR-Ep9w3zF_WT5TDKV/view?usp=sharing","_blank")
 }
 
 
